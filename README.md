@@ -1,2 +1,2 @@
-# website
-my personal website
+# Website
+The website for FerretCode Freelancing
