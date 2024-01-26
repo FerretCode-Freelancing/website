@@ -27,6 +27,13 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Red+Hat+Mono&display=swap"
       rel="stylesheet"
@@ -38,6 +45,8 @@
       href="https://fonts.googleapis.com/css2?family=Koulen&display=swap"
       rel="stylesheet"
     />
+
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
 
     <link
       rel="stylesheet"
@@ -61,29 +70,29 @@
   <body
     style="
       background-color: #313136;
-      background-image: url('./svg/blob-scene-haikei.svg');
+      background-image: url('./svg/layered-steps-haikei.svg');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
       background-position: 50% 0%;
-      font-family: 'Koulen', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-stretch: extra-expanded;
     "
   >
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a
-          class="navbar-brand display-1 my-3"
+          class="navbar-brand display-2 my-3"
           href="./index.html"
-          style="font-size: xx-large; color: #198754"
+          style="font-size: xx-large; color: #34a1eb"
           ><img
             src="./images/pfp.png"
-            class="mx-5 text-success"
+            class="sm:p-4 mx-5 text-success"
             width="125"
             height="125"
         /></a>
 
-        <div class="display-3" style="color: #198754">ferretcode</div>
+        <div class="fs-2" style="color: #34a1eb">ferretcode freelancing</div>
 
         <button
           class="navbar-toggler"
@@ -93,7 +102,7 @@
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          style="color: #198754; border-color: #1ace7a; border-width: 3px"
+          style="color: #34a1eb; border-color: #34a1eb; border-width: 3px"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -102,21 +111,21 @@
           <ul class="navbar-nav ms-auto" style="font-size: x-large">
             <li class="nav-item">
               <a
-                class="nav-link active display-6 mx-3"
+                class="nav-link active fs-2 mx-3"
                 aria-current="page"
                 href="./index.html"
-                style="color: #1fba72"
-                >Home</a
+                style="color: #34a1eb"
+                >home</a
               >
             </li>
 
             <li class="nav-item">
               <a
-                class="nav-link active display-6 mx-3"
+                class="nav-link active fs-2 mx-3"
                 aria-current="page"
                 href="https://discord.gg/xk43udsvKA"
-                style="color: #1fba72"
-                >Hire Me</a
+                style="color: #34a1eb"
+                >talk to us</a
               >
             </li>
           </ul>
@@ -125,168 +134,208 @@
     </nav>
 
     <div class="container-fluid">
-      <div class="display-3 text-center pt-5 px-5 mt-2 fw-bold text-success">
-        ferretcode
-      </div>
       <div
-        class="display-6 text-center pt-5 px-5 fw-bold"
-        style="color: #1fba72"
+        class="display-3 text-center pt-5 px-5 mt-2 fw-bold"
+        style="color: #fff"
       >
-        Freelance Backend & Bot Developer
+        ferretcode freelancing
       </div>
-      <div
-        class="display-6 text-center px-5 fw-bold mb-1"
-        style="color: #9aefa1"
-      >
-        Talk to me about your project!
+      <div class="display-6 text-center pt-5 px-5" style="color: #fff">
+        Fullstack, bot & app developers
+      </div>
+      <div class="display-6 text-center px-5 mb-1" style="color: #fff">
+        Talk to us about your project!
       </div>
 
-      <div class="display-3 text-center pt-5 px-5 fw-bold text-success">
-        Contact & Work
+      <div class="display-3 text-center pt-5 px-5 fw-bold" style="color: #fff">
+        contact & our work
       </div>
 
-      <div class="text-center px-5 mx-3 mt-5 display-3" style="color: #9aefa1">
+      <div class="text-center pt-3 px-5 text-white fs-4">
+        Join us on Discord and talk to us about your project! Our open source
+        work is available on our GitHub.
+      </div>
+
+      <div class="text-center px-5 mx-3 mt-5 display-3" style="color: #fff">
         <a
-          href="https://github.com/ferretcode"
-          style="color: #9aefa1; text-decoration: none"
+          href="https://github.com/ferretcode-freelancing"
+          style="color: white; text-decoration: none"
           ><i class="fa-brands fa-github"></i>
         </a>
         <a
           href="https://discord.gg/xk43udsvKA"
-          style="color: #9aefa1; text-decoration: none"
+          style="color: white; text-decoration: none"
           ><i class="fa-brands fa-discord"></i>
         </a>
       </div>
 
-      <div class="display-3 text-center pt-5 px-5 fw-bold text-success">
-        Payment
+      <div class="display-3 text-center pt-5 px-5 fw-bold" style="color: white">
+        payment
       </div>
 
-      <div class="text-center px-5 mx-3 mt-5 display-3" style="color: #9aefa1">
+      <div class="text-center pt-3 px-5 text-white fs-4">
+        We accept payment through Stripe invoices or direct deposit
+      </div>
+
+      <div class="text-center px-5 mx-3 mt-5 display-3" style="color: white">
         <i class="fa-brands fa-stripe"></i>
         <a
           href="https://discord.gg/xk43udsvKA"
-          style="color: #9aefa1; text-decoration: none"
+          style="color: white; text-decoration: none"
           class="mx-3"
           ><i class="fa-solid fa-file-invoice-dollar"></i>
         </a>
-
-        <a
-          href="https://ko-fi.com/ferretcode"
-          style="color: #9aefa1; text-decoration: none"
-          class="mx-3"
-          ><i class="fa-solid fa-mug-hot"></i>
-        </a>
-      </div>
-
-      <div class="display-3 text-center pt-5 px-5 mt-2 fw-bold text-success">
-        Skills
       </div>
 
       <div
-        class="display-6 text-center px-5 my-3 fw-bold"
-        style="color: #9aefa1"
+        class="display-3 text-center pt-5 px-5 mt-2 fw-bold"
+        style="color: white"
       >
-        Problem solving, communication, time management, leadership
-      </div>
-      <div
-        class="display-6 text-center px-5 my-3 fw-bold"
-        style="color: #9aefa1"
-      >
-        8+ years programming, 6 years Node.JS
-      </div>
-      <div
-        class="display-6 text-center px-5 mt-5 fw-bold mx-10"
-        style="color: #1fba72"
-      >
-        <ul>
-          <li>Golang</li>
-          <li>Kubernetes</li>
-          <li>Docker</li>
-          <li>Node.JS</li>
-          <li>Firebase</li>
-          <li>APIs</li>
-          <li>Python</li>
-          <li>Ruby</li>
-          <li>JWTs</li>
-          <li>And more...</li>
-        </ul>
+        qualifications
       </div>
 
-      <div class="display-3 text-center pt-5 px-5 mt-2 fw-bold text-success">
-        Work Experience
+      <div class="d-flex justify-content-center align-items-center">
+        <div
+          class="display-6 text-center px-5 mt-3 fs-5 text-wrap"
+          style="color: white; width: 40rem"
+        >
+          We are a team who takes pride in our fantastic communication and
+          support skills. We're a seasoned team with years of experience in the
+          backend, frontend, and DevOps spaces.
+        </div>
       </div>
+
+      <div class="d-flex justify-content-center align-items-center">
+        <div
+          class="display-6 text-center px-5 fs-5 my-1 text-white text-wrap"
+          style="color: white; width: 40rem"
+        >
+          We're a seasoned team with years of experience in the backend,
+          frontend, and DevOps spaces.
+        </div>
+      </div>
+
+      <div class="display-6 text-center px-5 fs-5" style="color: white">
+        Our priority lies in making sure your project is delivered on time with
+        excellent reliability and quality
+      </div>
+
+      <div
+        class="display-6 text-center px-5 my-3 fs-4 fw-bold"
+        style="color: white"
+      >
+        8+ years programming experience with 4 years of freelancing experience
+      </div>
+
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="text-center w-50 px-5 mt-5 mx-10" style="color: white">
+          <ul class="list-group">
+            <li class="list-group-item">Golang</li>
+            <li class="list-group-item">Kubernetes</li>
+            <li class="list-group-item">Docker</li>
+            <li class="list-group-item">APIs</li>
+            <li class="list-group-item">Node.JS</li>
+            <li class="list-group-item">PostgreSQL</li>
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">SvelteKit</li>
+            <li class="list-group-item">OAuth2</li>
+            <li class="list-group-item">And more...</li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="display-3 text-center pt-5 px-5 mt-2 fw-bold"
+        style="color: white"
+      >
+        project history
+      </div>
+
+      <div class="fs-3 text-center text-white">these and more...</div>
 
       <div class="container d-flex justify-content-center my-5">
         <div class="row">
           <div class="col">
-            <div class="card" style="width: 18rem; background-color: #9aefa1">
+            <div
+              class="card text-white"
+              style="width: 18rem; background-color: #326ba8"
+            >
               <div class="card-body">
-                <h5 class="card-title">Freelancer Group</h5>
-                <h6>AUG 2021 - FEB 2022</h6>
-                <h5 class="card-text">
-                  A place for content creators to post jobs & get assistance
-                </h5>
+                <h5 class="card-title">Rapidify</h5>
+                <h6>March 2022 - Present</h6>
+                <h5 class="card-text">A UK based resale group</h5>
                 <ul>
-                  <li>Created a website</li>
                   <li>
-                    Created an interactive bot for validating user information
+                    Created a dashboard for members to track expenses, list on
+                    different marketplaces, etc.
                   </li>
-                  <li>Used Stripe for accepting and validating payments</li>
-                  <li>Connected to a database to validate user identity</li>
+                  <li>
+                    Created several scripts for monitoring the stock of
+                    different items on multiple websites
+                  </li>
+                  <li>Created a bot for automated forex trading</li>
+                  <li>
+                    Used web scraping and browser automation to find info on
+                    items
+                  </li>
                 </ul>
-                <a
-                  href="https://freelancer-group.glitch.me"
-                  class="btn btn-success"
+                <a href="https://rapidify.co.uk" class="btn btn-primary"
                   >Go There</a
                 >
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 18rem; background-color: #9aefa1">
+            <div
+              class="card text-white"
+              style="width: 18rem; background-color: #326ba8"
+            >
               <div class="card-body">
-                <h5 class="card-title">Raspberry Proxies</h5>
-                <h6>JUN 2020 - JUN 2021</h6>
+                <h5 class="card-title">Bob's Card Market</h5>
+                <h6>February 2023 - Present</h6>
                 <h5 class="card-text">
-                  A place to buy residential proxies through Discord
+                  An easy way to buy, sell and discuss sports cards
                 </h5>
                 <ul>
-                  <li>Created a website</li>
-                  <li>Used Stripe for processing & validating payments</li>
                   <li>
-                    Created a bot for interacting with users & generating
-                    proxies
+                    Created a marketplace website for buying cards at a
+                    discounted price
+                  </li>
+                  <li>
+                    Created an admin dashboard for managing card sales,
+                    uploading new cards, and authenticating users
+                  </li>
+                  <li>
+                    Created several interactive bots for offering on cards,
+                    giving members feedback, and more
                   </li>
                 </ul>
                 <a
-                  style="color: gray; pointer-events: none"
-                  class="btn btn-success"
-                  >Discontinued</a
+                  style="pointer-events: none"
+                  class="btn btn-primary"
+                  href="https://bobscardmarket.com/"
+                  >Go There</a
                 >
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 18rem; background-color: #9aefa1">
+            <div
+              class="card text-white"
+              style="width: 18rem; background-color: #326ba8"
+            >
               <div class="card-body">
-                <h5 class="card-title">Independent Contractor</h5>
-                <h6>MAR 2020 - MAY 2022</h6>
+                <h5 class="card-title">Amnia Proxies</h5>
+                <h6>August 2023 - Present</h6>
                 <h5 class="card-text">
-                  I worked on Fiverr for over 2 years with lots of happy
-                  customers!
+                  A dashboard for managing residental proxies
                 </h5>
                 <ul>
-                  <li>Worked with Kubernetes & Docker</li>
-                  <li>Worked with Stripe</li>
-                  <li>Used Firebase & MongoDB</li>
-                  <li>Wrote documentation</li>
-                  <li>Created backend systems</li>
-                  <li>24 five-star reviews</li>
+                  <li>Fixed bugs with an existing dashboard</li>
+                  <li>Refactored the backend to be more robust</li>
+                  <li>Added several new proxy types</li>
                 </ul>
-                <a
-                  href="https://fiverr.com/acodingferret"
-                  class="btn btn-success mt-2"
+                <a href="https://amniaproxies.com/" class="btn btn-primary mt-2"
                   >Go There</a
                 >
               </div>
