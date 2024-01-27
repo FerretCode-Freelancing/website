@@ -68,6 +68,18 @@
     <meta content="https://frrt.space" property="og:url" />
     <meta content="./images/pfp.png" property="og:image" />
     <meta content="#34a1eb" data-react-helmet="true" name="theme-color" />
+
+    <style>
+      .pfp {
+        display: none;
+      }
+
+      @include media-breakpoint-up(sm) {
+        .pfp {
+          display: block;
+        }
+      }
+    </style>
   </head>
   <body
     style="
@@ -84,7 +96,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a
-          class="navbar-brand display-2 my-3"
+          class="navbar-brand display-2 my-3 pfp"
           href="./index.html"
           style="font-size: xx-large; color: #34a1eb"
           ><img
@@ -198,22 +210,12 @@
 
       <div class="d-flex justify-content-center align-items-center">
         <div
-          class="display-6 text-center px-5 mt-3 fs-5 text-wrap"
+          class="display-6 text-center px-5 my-3 fs-5 text-wrap"
           style="color: white; width: 40rem"
         >
           We are a team who takes pride in our fantastic communication and
           support skills. We're a seasoned team with years of experience in the
           backend, frontend, and DevOps spaces.
-        </div>
-      </div>
-
-      <div class="d-flex justify-content-center align-items-center">
-        <div
-          class="display-6 text-center px-5 fs-5 my-1 text-white text-wrap"
-          style="color: white; width: 40rem"
-        >
-          We're a seasoned team with years of experience in the backend,
-          frontend, and DevOps spaces.
         </div>
       </div>
 
@@ -226,11 +228,12 @@
         class="display-6 text-center px-5 my-3 fs-4 fw-bold"
         style="color: white"
       >
-        8+ years programming experience with 4 years of freelancing experience
+        8+ years programming experience with over 4 years of freelancing
+        experience
       </div>
 
       <div class="d-flex justify-content-center align-items-center">
-        <div class="text-center w-50 px-5 mt-5 mx-10" style="color: white">
+        <div class="text-center px-5 mt-5 mx-10" style="color: white">
           <ul class="list-group">
             <li class="list-group-item">Golang</li>
             <li class="list-group-item">Kubernetes</li>
@@ -313,7 +316,6 @@
                   </li>
                 </ul>
                 <a
-                  style="pointer-events: none"
                   class="btn btn-primary"
                   href="https://bobscardmarket.com/"
                   >Go There</a
