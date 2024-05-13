@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cmyk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,16 +9,11 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
+      type="text/css"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -82,267 +77,151 @@
     </style>
   </head>
   <body
-    style="
-      background-color: #313136;
-      background-image: url('./svg/layered-steps-haikei.svg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      background-position: 50% 0%;
-      font-family: 'Montserrat', sans-serif;
-      font-stretch: extra-expanded;
-    "
+    style="font-family: 'Montserrat', sans-serif; font-stretch: extra-expanded"
   >
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
+    <div class="navbar bg-dark">
+      <div class="flex-1">
         <a
-          class="navbar-brand display-2 my-3 pfp"
-          href="./index.html"
-          style="font-size: xx-large; color: #34a1eb"
-          ><img
-            src="./images/pfp.png"
-            class="sm:p-4 mx-5 text-success"
-            width="125"
-            height="125"
-        /></a>
-
-        <div class="fs-2" style="color: #34a1eb">ferretcode freelancing</div>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          style="color: #34a1eb; border-color: #34a1eb; border-width: 3px"
+          tabindex="0"
+          role="button"
+          class="btn btn-ghost btn-circle avatar"
+          href="/"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto" style="font-size: x-large">
-            <li class="nav-item">
-              <a
-                class="nav-link active fs-2 mx-3"
-                aria-current="page"
-                href="./index.html"
-                style="color: #34a1eb"
-                >home</a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a
-                class="nav-link active fs-2 mx-3"
-                aria-current="page"
-                href="https://discord.gg/xk43udsvKA"
-                style="color: #34a1eb"
-                >talk to us</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container-fluid">
-      <div
-        class="display-3 text-center pt-5 px-5 mt-2 fw-bold"
-        style="color: #fff"
-      >
-        ferretcode freelancing
-      </div>
-      <div class="display-6 text-center pt-5 px-5" style="color: #fff">
-        Fullstack, bot & app developers
-      </div>
-      <div class="display-6 text-center px-5 mb-1" style="color: #fff">
-        Talk to us about your project!
-      </div>
-
-      <div class="display-3 text-center pt-5 px-5 fw-bold" style="color: #fff">
-        contact & our work
-      </div>
-
-      <div class="text-center pt-3 px-5 text-white fs-4">
-        Join us on Discord and talk to us about your project! Our open source
-        work is available on our GitHub.
-      </div>
-
-      <div class="text-center px-5 mx-3 mt-5 display-3" style="color: #fff">
-        <a
-          href="https://github.com/ferretcode-freelancing"
-          style="color: white; text-decoration: none"
-          ><i class="fa-brands fa-github"></i>
+          <div class="w-10 rounded-full">
+            <img alt="Logo" src="./images/pfp.png" />
+          </div>
         </a>
-        <a
-          href="https://discord.gg/xk43udsvKA"
-          style="color: white; text-decoration: none"
-          ><i class="fa-brands fa-discord"></i>
-        </a>
-      </div>
-
-      <div class="display-3 text-center pt-5 px-5 fw-bold" style="color: white">
-        payment
-      </div>
-
-      <div class="text-center pt-3 px-5 text-white fs-4">
-        We accept payment through Stripe invoices or direct deposit
-      </div>
-
-      <div class="text-center px-5 mx-3 mt-5 display-3" style="color: white">
-        <i class="fa-brands fa-stripe"></i>
-        <a
-          href="https://discord.gg/xk43udsvKA"
-          style="color: white; text-decoration: none"
-          class="mx-3"
-          ><i class="fa-solid fa-file-invoice-dollar"></i>
-        </a>
-      </div>
-
-      <div
-        class="display-3 text-center pt-5 px-5 mt-2 fw-bold"
-        style="color: white"
-      >
-        qualifications
-      </div>
-
-      <div class="d-flex justify-content-center align-items-center">
-        <div
-          class="display-6 text-center px-5 my-3 fs-5 text-wrap"
-          style="color: white; width: 40rem"
+        <a class="btn btn-ghost text-xl text-primary" href="/"
+          >FerretCode Freelancing</a
         >
-          We are a team who takes pride in our fantastic communication and
-          support skills. We're a seasoned team with years of experience in the
-          backend, frontend, and DevOps spaces.
-        </div>
       </div>
-
-      <div class="display-6 text-center px-5 fs-5" style="color: white">
-        Our priority lies in making sure your project is delivered on time with
-        excellent reliability and quality
-      </div>
-
-      <div
-        class="display-6 text-center px-5 my-3 fs-4 fw-bold"
-        style="color: white"
-      >
-        8+ years programming experience with over 4 years of freelancing
-        experience
-      </div>
-
-      <div class="d-flex justify-content-center align-items-center">
-        <div class="text-center px-5 mt-5 mx-10" style="color: white">
-          <ul class="list-group">
-            <li class="list-group-item">Golang</li>
-            <li class="list-group-item">Kubernetes</li>
-            <li class="list-group-item">Docker</li>
-            <li class="list-group-item">APIs</li>
-            <li class="list-group-item">Node.JS</li>
-            <li class="list-group-item">PostgreSQL</li>
-            <li class="list-group-item">Python</li>
-            <li class="list-group-item">SvelteKit</li>
-            <li class="list-group-item">OAuth2</li>
-            <li class="list-group-item">And more...</li>
-          </ul>
-        </div>
-      </div>
-
-      <div
-        class="display-3 text-center pt-5 px-5 mt-2 fw-bold"
-        style="color: white"
-      >
-        project history
-      </div>
-
-      <div class="fs-3 text-center text-white">these and more...</div>
-
-      <div class="container d-flex justify-content-center my-5">
-        <div class="row">
-          <div class="col">
-            <div
-              class="card text-white"
-              style="width: 18rem; background-color: #326ba8"
+      <div class="flex-none">
+        <ul class="menu menu-horizontal px-1">
+          <li>
+            <a
+              class="btn btn-primary nav-link active fs-2 mx-3"
+              aria-current="page"
+              href="./index.html"
+              >home</a
             >
-              <div class="card-body">
-                <h5 class="card-title">Rapidify</h5>
-                <h6>March 2022 - Present</h6>
-                <h5 class="card-text">A UK based resale group</h5>
-                <ul>
-                  <li>
-                    Created a dashboard for members to track expenses, list on
-                    different marketplaces, etc.
-                  </li>
-                  <li>
-                    Created several scripts for monitoring the stock of
-                    different items on multiple websites
-                  </li>
-                  <li>Created a bot for automated forex trading</li>
-                  <li>
-                    Used web scraping and browser automation to find info on
-                    items
-                  </li>
-                </ul>
-                <a href="https://rapidify.co.uk" class="btn btn-primary"
-                  >Go There</a
-                >
+          </li>
+          <li>
+            <a
+              class="btn btn-primary nav-link active fs-2 mx-3"
+              aria-current="page"
+              href="https://discord.gg/xk43udsvKA"
+              >talk to us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero min-h-min mt-6">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img
+          src="./images/hero.png"
+          alt="An image displaying a code window with colored lines"
+          class="max-w-sm rounded-lg md:max-w-2xl"
+        />
+        <div class="text-primary-content">
+          <h1 class="text-5xl font-bold">FerretCode Freelancing</h1>
+          <p class="py-6">
+            A seasoned team of fullstack, bot & app developers. Talk to us about
+            your project!
+          </p>
+          <a
+            class="btn btn-primary nav-link active fs-2"
+            aria-current="page"
+            href="https://discord.gg/xk43udsvKA"
+            >Talk to Us</a
+          >
+          <a
+            class="btn btn-secondary nav-link active fs-2 ml-2"
+            aria-current="page"
+            href="https://github.com/ferretcode-freelancing"
+            >Our Work</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="flex mt-10">
+      <div class="m-auto">
+        <div class="stats shadow-xl border-8 border-primary">
+          <div class="stat place-items-center">
+            <div class="stat-title">Orders</div>
+            <div class="stat-value">70+</div>
+            <div class="stat-desc">Delivered With 100% Satisfaction</div>
+          </div>
+
+          <div class="stat place-items-center">
+            <div class="stat-title">Versatile</div>
+            <div class="stat-value text-secondary">
+              <div class="flex">
+                <div class="m-auto">
+                  <div class="chat chat-start text-sm">
+                    <div class="chat-bubble mr-5">
+                      Fullstack, backend, bot... <br />
+                      Just tell us what you need!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="stat-desc">All kinds of projects</div>
+          </div>
+
+          <div class="stat place-items-center">
+            <div class="stat-title">Competitive Rates</div>
+            <div class="stat-value text-sm">
+              We work with budgets & <br />
+              charge reasonable prices
+            </div>
+            <div class="stat-desc">Talk to us!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="m-auto">
+        <div class="grid grid-cols-3 mt-10 gap-5">
+          <div class="card w-96 bg-neutral text-neutral-content">
+            <div class="card-body items-center">
+              <h2 class="card-title">Technologies</h2>
+              <ul>
+                <li>- Golang</li>
+                <li>- Kubernetes</li>
+                <li>- Docker</li>
+                <li>- PostgreSQL</li>
+                <li>- Redis</li>
+                <li>- SvelteKit</li>
+                <li>- And Much More...</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-neutral text-neutral-content">
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Experience</h2>
+              <div class="stats shadow mt-5">
+                <div class="stat">
+                  <div class="stat-title">Years of experience</div>
+                  <div class="stat-value">8+</div>
+                  <div class="stat-desc">4+ years in the freelance space</div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div
-              class="card text-white"
-              style="width: 18rem; background-color: #326ba8"
-            >
-              <div class="card-body">
-                <h5 class="card-title">Bob's Card Market</h5>
-                <h6>February 2023 - Present</h6>
-                <h5 class="card-text">
-                  An easy way to buy, sell and discuss sports cards
-                </h5>
-                <ul>
-                  <li>
-                    Created a marketplace website for buying cards at a
-                    discounted price
-                  </li>
-                  <li>
-                    Created an admin dashboard for managing card sales,
-                    uploading new cards, and authenticating users
-                  </li>
-                  <li>
-                    Created several interactive bots for offering on cards,
-                    giving members feedback, and more
-                  </li>
-                </ul>
-                <a
-                  class="btn btn-primary"
-                  href="https://bobscardmarket.com/"
-                  >Go There</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div
-              class="card text-white"
-              style="width: 18rem; background-color: #326ba8"
-            >
-              <div class="card-body">
-                <h5 class="card-title">Amnia Proxies</h5>
-                <h6>August 2023 - Present</h6>
-                <h5 class="card-text">
-                  A dashboard for managing residental proxies
-                </h5>
-                <ul>
-                  <li>Fixed bugs with an existing dashboard</li>
-                  <li>Refactored the backend to be more robust</li>
-                  <li>Added several new proxy types</li>
-                </ul>
-                <a href="https://amniaproxies.com/" class="btn btn-primary mt-2"
-                  >Go There</a
-                >
-              </div>
+
+          <div class="card w-96 bg-neutral text-neutral-content">
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Soft Skills</h2>
+              <p class="mt-10">
+                We pride ourselves on our excellent communication, punctuality,
+                respectfulness, and quality.
+              </p>
             </div>
           </div>
         </div>
