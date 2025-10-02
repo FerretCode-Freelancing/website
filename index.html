@@ -1,230 +1,293 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="cmyk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FerretCode Freelancing</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FerretCode | Portfolio</title>
 
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Righteous&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Red+Hat+Mono&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Koulen&display=swap"
-      rel="stylesheet"
-    />
-
-    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
-    />
-
-    <script
-      src="https://kit.fontawesome.com/423df6f7fe.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <meta content="FerretCode Freelancing" property="og:title" />
-    <meta
-      content="
-        Fullstack, bot & app developers. Get your project made today
-      "
-      property="og:description"
-    />
-    <meta content="https://frrt.space" property="og:url" />
-    <meta content="./images/pfp.png" property="og:image" />
-    <meta content="#34a1eb" data-react-helmet="true" name="theme-color" />
-
-    <style>
-      .pfp {
-        display: none;
-      }
-
-      @include media-breakpoint-up(sm) {
-        .pfp {
-          display: block;
-        }
-      }
-    </style>
-  </head>
-  <body
-    style="font-family: 'Montserrat', sans-serif; font-stretch: extra-expanded"
-  >
-    <div class="navbar text-primary-content">
-      <div class="flex-1">
-        <a
-          tabindex="0"
-          role="button"
-          class="btn btn-ghost btn-circle avatar"
-          href="/"
-        >
-          <div class="w-10 rounded-full">
-            <img alt="Logo" src="./images/pfp.png" />
-          </div>
-        </a>
-      </div>
-      <div class="flex-none">
-        <ul class="menu menu-horizontal px-1">
-          <li>
-            <a
-              class="btn btn-primary nav-link active fs-2 mx-3"
-              aria-current="page"
-              href="./index.html"
-              >home</a
-            >
-          </li>
-          <li>
-            <a
-              class="btn btn-primary nav-link active fs-2 mx-3"
-              aria-current="page"
-              href="https://discord.gg/xk43udsvKA"
-              >talk to us</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="hero min-h-min mt-6">
-      <div class="hero-content flex-col lg:flex-row-reverse">
-        <img
-          src="./images/hero.png"
-          alt="An image displaying a code window with colored lines"
-          class="max-w-sm rounded-lg md:max-w-2xl"
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css"
         />
-        <div class="text-primary-content">
-          <h1 class="text-5xl font-bold">FerretCode Freelancing</h1>
-          <p class="py-6">
-            A seasoned team of fullstack, bot & app developers. Talk to us about
-            your project!
-          </p>
-          <a
-            class="btn btn-primary nav-link active fs-2"
-            aria-current="page"
-            href="https://discord.gg/xk43udsvKA"
-            >Talk to Us</a
-          >
-          <a
-            class="btn btn-secondary nav-link active fs-2 ml-2"
-            aria-current="page"
-            href="https://github.com/ferretcode-freelancing"
-            >Our Work</a
-          >
-        </div>
-      </div>
-    </div>
+        <script src="https://cdn.tailwindcss.com"></script>
 
-    <div class="flex mt-10">
-      <div class="m-auto">
-        <div
-          class="stats shadow-xl border-8 border-primary stats-vertical lg:stats-horizontal"
-        >
-          <div class="stat place-items-center">
-            <div class="stat-title">Orders</div>
-            <div class="stat-value">70+</div>
-            <div class="stat-desc">Delivered With 100% Satisfaction</div>
-          </div>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+        />
 
-          <div class="stat place-items-center">
-            <div class="stat-title">Versatile</div>
-            <div class="stat-value text-secondary">
-              <div class="flex">
-                <div class="m-auto">
-                  <div class="chat chat-start text-sm">
-                    <div class="chat-bubble mr-5">
-                      Fullstack, backend, bot... <br />
-                      Just tell us what you need!
+        <meta content="Portfolio of FerretCode" property="og:title" />
+        <meta
+            content="Fullstack, bot, and embedded engineer. Explore my projects in Go, Kubernetes, hardware, and more."
+            property="og:description"
+        />
+        <meta content="https://frrt.space" property="og:url" />
+        <meta content="./images/pfp.png" property="og:image" />
+        <meta content="#34a1eb" name="theme-color" />
+    </head>
+    <body style="font-family: &quot;Montserrat&quot;, sans-serif">
+        <div class="navbar text-primary-content">
+            <div class="flex-1">
+                <a
+                    tabindex="0"
+                    class="btn btn-ghost btn-circle avatar"
+                    href="/"
+                >
+                    <div class="w-10 rounded-full">
+                        <img alt="Logo" src="./images/pfp.png" />
                     </div>
-                  </div>
+                </a>
+            </div>
+
+            <div class="flex-none">
+                <ul class="menu menu-horizontal px-1 hidden lg:flex">
+                    <li>
+                        <a class="btn btn-primary mx-2" href="#projects"
+                            >Projects</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="btn btn-secondary mx-2"
+                            href="https://github.com/FerretCode"
+                            target="_blank"
+                            >GitHub</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="btn btn-success mx-2"
+                            href="https://discord.gg/xk43udsvKA"
+                            target="_blank"
+                            >Contact</a
+                        >
+                    </li>
+                </ul>
+
+                <div class="dropdown dropdown-end lg:hidden">
+                    <button tabindex="0" class="btn btn-ghost btn-circle">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h7"
+                            />
+                        </svg>
+                    </button>
+                    <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                    >
+                        <li><a href="#projects">Projects</a></li>
+                        <li>
+                            <a
+                                href="https://github.com/FerretCode"
+                                target="_blank"
+                                >GitHub</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://discord.gg/xk43udsvKA"
+                                target="_blank"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
                 </div>
-              </div>
             </div>
-            <div class="stat-desc">All kinds of projects</div>
-          </div>
-
-          <div class="stat place-items-center">
-            <div class="stat-title">Competitive Rates</div>
-            <div class="stat-value text-sm">
-              We work with budgets & <br />
-              charge reasonable prices
-            </div>
-            <div class="stat-desc">Talk to us!</div>
-          </div>
         </div>
-      </div>
-    </div>
 
-    <div class="flex">
-      <div class="m-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-3 mt-10 gap-5">
-          <div class="card w-96 bg-neutral text-neutral-content">
-            <div class="card-body items-center">
-              <h2 class="card-title">Technologies</h2>
-              <ul>
-                <li>- Golang</li>
-                <li>- Kubernetes</li>
-                <li>- Docker</li>
-                <li>- PostgreSQL</li>
-                <li>- Redis</li>
-                <li>- SvelteKit</li>
-                <li>- And Much More...</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="card w-96 bg-neutral text-neutral-content">
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Experience</h2>
-              <div class="stats shadow mt-5">
-                <div class="stat">
-                  <div class="stat-title">Years of experience</div>
-                  <div class="stat-value">9+</div>
-                  <div class="stat-desc">5+ years in the freelance space</div>
+        <div class="hero mt-6">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <img
+                    src="./images/hero.png"
+                    alt="Code window illustration"
+                    class="w-full max-w-sm rounded-lg md:max-w-2xl"
+                />
+                <div class="text-primary-content">
+                    <h1 class="text-5xl font-bold">FerretCode</h1>
+                    <p class="py-6">
+                        Multi-stack software engineer. I love building embedded
+                        systems and hardware, internal tooling, full-stack
+                        applications, and infrastructure tools.
+                    </p>
+                    <a class="btn btn-primary" href="#projects">See My Work</a>
                 </div>
-              </div>
             </div>
-          </div>
-
-          <div class="card w-96 bg-neutral text-neutral-content">
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Soft Skills</h2>
-              <p class="mt-10">
-                We pride ourselves on our excellent communication, punctuality,
-                respectfulness, and quality.
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </body>
+
+        <div class="flex mt-10">
+            <div class="m-auto max-w-4xl text-center">
+                <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                <p>
+                    I'm a embedded and full-stack developer with a focus on
+                    infrastructure, automation, and embedded systems. My work
+                    often focuses in multiple stacks, from developer tools and
+                    cloud-native apps to embedded hardware design and smallsat
+                    subsystems. Much of my skill appears at the meeting of
+                    software and hardware, with experience in technologies like
+                    Go, Kubernetes, Docker, and more, alongside PCB design,
+                    LoRa/IoT, and space electronics.
+                </p>
+            </div>
+        </div>
+
+        <div id="projects" class="flex mt-16">
+            <div class="m-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-8">
+                    Featured Projects
+                </h2>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <div class="card w-full bg-neutral text-neutral-content">
+                        <div class="card-body">
+                            <h2 class="card-title">Locomotive</h2>
+                            <p>
+                                A Railway observability tool for streaming logs
+                                from services to other platforms.
+                            </p>
+                            <a
+                                href="https://github.com/ferretcode/locomotive"
+                                target="_blank"
+                                class="btn btn-primary mt-3"
+                                >View on GitHub</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="card w-full bg-neutral text-neutral-content">
+                        <div class="card-body">
+                            <h2 class="card-title">Scavenger</h2>
+                            <p>
+                                A self-hostable platform for building
+                                web-scraping pipelines. Allows developers to
+                                describe in plain english the content they're
+                                looking for, create a data schema, and then
+                                connect over websocket to their workflow to get
+                                real-time web-scraping data.
+                            </p>
+                            <a
+                                href="https://github.com/ferretcode/scavenger"
+                                target="_blank"
+                                class="btn btn-primary mt-3"
+                                >View on GitHub</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="card w-full bg-neutral text-neutral-content">
+                        <div class="card-body">
+                            <h2 class="card-title">RFID Inventory Tracker</h2>
+                            <p>
+                                An RP2040 based embedded device for
+                                automatically tracking warehouse inventory and
+                                ingress using RFID tags and MQTT. Also exposes a
+                                Golang based internal dashboard for registering
+                                products and viewing product inventory.
+                            </p>
+                            <a
+                                href="https://github.com/ferretcode/rfid-inventory-tracker"
+                                target="_blank"
+                                class="btn btn-primary mt-3"
+                                >View on GitHub</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="card w-full bg-neutral text-neutral-content">
+                        <div class="card-body">
+                            <h2 class="card-title">FleetOS</h2>
+                            <p>
+                                An open-source telmatics device and platform for
+                                realtime fleet tracking. Uses secure embedded
+                                devices with GPS and cellular support to track
+                                vehicle location. Also exposes a dashboard to
+                                manage fleet devices and view locations/routes.
+                            </p>
+                            <a
+                                href="https://github.com/fleetos"
+                                target="_blank"
+                                class="btn btn-primary mt-3"
+                                >View on GitHub</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="card w-full bg-neutral text-neutral-content">
+                        <div class="card-body">
+                            <h2 class="card-title">MESS/OSUSat</h2>
+                            <p>
+                                Modular bus for building climate science devices
+                                meant to be launched as a CubeSat or HAB
+                                payload. The current configuration includes
+                                mounting rails, 18650 battery pack and
+                                power/protection system, LoRa communications
+                                board, on-board-computer for system management,
+                                and a switching camera-filter payload for
+                                running NDVI and BG/NDCI climate algorithms.
+                            </p>
+                            <a
+                                href="https://github.com/osusat"
+                                target="_blank"
+                                class="btn btn-primary mt-3"
+                                >View on GitHub</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="card w-full bg-neutral text-neutral-content">
+                        <div class="card-body">
+                            <h2 class="card-title">Switchyard</h2>
+                            <p>
+                                Pluggable Railway infrastructure management
+                                toolset, and the Railway hackathon winning
+                                project. Includes services for autoscaling,
+                                feature-flags, distributed worker scheduling,
+                                and error and incident observability reporting.
+                            </p>
+                            <a
+                                href="https://github.com/ferretcode/switchyard"
+                                target="_blank"
+                                class="btn btn-primary mt-3"
+                                >View on GitHub</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer
+            class="footer footer-center p-10 mt-20 bg-base-200 text-base-content rounded"
+        >
+            <div>
+                <p>
+                    Built by Ethan Eggert - 2025
+                    <a
+                        class="link link-primary"
+                        href="https://github.com/FerretCode"
+                        target="_blank"
+                        >GitHub</a
+                    >
+                    ·
+                    <a
+                        class="link link-secondary"
+                        href="https://discord.gg/xk43udsvKA"
+                        target="_blank"
+                        >Discord</a
+                    >
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>
