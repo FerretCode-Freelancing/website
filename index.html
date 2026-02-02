@@ -45,8 +45,10 @@
             <div class="flex-none">
                 <ul class="menu menu-horizontal px-1 hidden lg:flex">
                     <li>
-                        <a class="btn btn-primary mx-2" href="#projects"
-                            >Projects</a
+                        <a
+                            class="btn btn-primary mx-2"
+                            href="https://techrocks.frrt.space"
+                            >Blog</a
                         >
                     </li>
                     <li>
@@ -60,7 +62,7 @@
                     <li>
                         <a
                             class="btn btn-success mx-2"
-                            href="https://discord.gg/xk43udsvKA"
+                            href="mailto:ferret@frrt.space"
                             target="_blank"
                             >Contact</a
                         >
@@ -97,9 +99,7 @@
                             >
                         </li>
                         <li>
-                            <a
-                                href="https://discord.gg/xk43udsvKA"
-                                target="_blank"
+                            <a href="mailto:ferret@frrt.space" target="_blank"
                                 >Contact</a
                             >
                         </li>
@@ -252,130 +252,6 @@
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                     <div class="card w-full bg-neutral text-neutral-content">
                         <div class="card-body">
-                            <h2 class="card-title">Locomotive</h2>
-                            <h3>
-                                <div class="badge badge-primary">
-                                    Cloud-native
-                                </div>
-                                <div class="badge badge-secondary">Go</div>
-                                <div class="badge badge-secondary">
-                                    Containers
-                                </div>
-                                <div class="badge badge-secondary">GraphQL</div>
-                            </h3>
-                            <p>
-                                A Railway observability tool for streaming logs
-                                from services to other platforms. Deployed as a
-                                sidecar container, it subscribes to deployment
-                                logs and forwards them to an ingress/webhook URL
-                                for further processing outside of Railway.
-                            </p>
-                            <a
-                                href="https://github.com/ferretcode/locomotive"
-                                target="_blank"
-                                class="btn btn-primary mt-3"
-                                >View on GitHub</a
-                            >
-                        </div>
-                    </div>
-
-                    <div class="card w-full bg-neutral text-neutral-content">
-                        <div class="card-body">
-                            <h2 class="card-title">Scavenger</h2>
-                            <h3>
-                                <div class="badge badge-primary">
-                                    Full-stack
-                                </div>
-                                <div class="badge badge-secondary">Go</div>
-                                <div class="badge badge-secondary">
-                                    Containers
-                                </div>
-                                <div class="badge badge-secondary">
-                                    Websockets
-                                </div>
-                                <div class="badge badge-secondary">
-                                    Web-scraping
-                                </div>
-                            </h3>
-                            <p>
-                                A self-hostable platform for building
-                                web-scraping pipelines. Allows developers to
-                                describe in plain english the content they're
-                                looking for, create a data schema, and then
-                                connect over websocket to their workflow to get
-                                real-time web-scraping data.
-                            </p>
-                            <a
-                                href="https://github.com/ferretcode/scavenger"
-                                target="_blank"
-                                class="btn btn-primary mt-3"
-                                >View on GitHub</a
-                            >
-                        </div>
-                    </div>
-
-                    <div class="card w-full bg-neutral text-neutral-content">
-                        <div class="card-body">
-                            <h2 class="card-title">RFID Inventory Tracker</h2>
-                            <h3>
-                                <div class="badge badge-primary">Embedded</div>
-                                <div class="badge badge-secondary">RP2040</div>
-                                <div class="badge badge-secondary">C</div>
-                                <div class="badge badge-secondary">KiCad</div>
-                                <div class="badge badge-secondary">Go</div>
-                                <div class="badge badge-secondary">
-                                    PostgreSQL
-                                </div>
-                                <div class="badge badge-secondary">Redis</div>
-                            </h3>
-                            <p>
-                                An RP2040 based embedded device for
-                                automatically tracking warehouse inventory and
-                                ingress using RFID tags and MQTT. Also exposes a
-                                Golang based internal dashboard for registering
-                                products and viewing product inventory.
-                            </p>
-                            <a
-                                href="https://github.com/ferretcode/rfid-inventory-tracker"
-                                target="_blank"
-                                class="btn btn-primary mt-3"
-                                >View on GitHub</a
-                            >
-                        </div>
-                    </div>
-
-                    <div class="card w-full bg-neutral text-neutral-content">
-                        <div class="card-body">
-                            <h2 class="card-title">FleetOS</h2>
-                            <h3>
-                                <div class="badge badge-primary">Embedded</div>
-                                <div class="badge badge-secondary">STM32</div>
-                                <div class="badge badge-secondary">C</div>
-                                <div class="badge badge-secondary">KiCad</div>
-                                <div class="badge badge-secondary">Go</div>
-                                <div class="badge badge-secondary">
-                                    TimescaleDB
-                                </div>
-                                <div class="badge badge-secondary">Redis</div>
-                            </h3>
-                            <p>
-                                An open-source telmatics device and platform for
-                                realtime fleet tracking. Uses secure embedded
-                                devices with GPS and cellular support to track
-                                vehicle location. Also exposes a dashboard to
-                                manage fleet devices and view locations/routes.
-                            </p>
-                            <a
-                                href="https://github.com/fleetos"
-                                target="_blank"
-                                class="btn btn-primary mt-3"
-                                >View on GitHub</a
-                            >
-                        </div>
-                    </div>
-
-                    <div class="card w-full bg-neutral text-neutral-content">
-                        <div class="card-body">
                             <h2 class="card-title">MESS/OSUSat</h2>
                             <h3>
                                 <div class="badge badge-primary">Embedded</div>
@@ -420,12 +296,186 @@
                                 >
                                 climate algorithms.
                             </p>
-                            <a
-                                href="https://github.com/osusat"
-                                target="_blank"
-                                class="btn btn-primary mt-3"
-                                >View on GitHub</a
-                            >
+
+                            <div class="flex gap-3 mt-4">
+                                <a
+                                    href="https://github.com/osusat"
+                                    target="_blank"
+                                    class="btn btn-primary flex-1"
+                                    >View on GitHub</a
+                                >
+
+                                <button
+                                    class="btn btn-outline btn-secondary flex-1"
+                                    onclick="modal_osusat.showModal()"
+                                >
+                                    Read Writeup
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-full bg-neutral text-neutral-content">
+                        <div class="card-body">
+                            <h2 class="card-title">Locomotive</h2>
+                            <h3>
+                                <div class="badge badge-primary">
+                                    Cloud-native
+                                </div>
+                                <div class="badge badge-secondary">Go</div>
+                                <div class="badge badge-secondary">
+                                    Containers
+                                </div>
+                                <div class="badge badge-secondary">GraphQL</div>
+                            </h3>
+                            <p>
+                                A Railway observability tool for streaming logs
+                                from services to other platforms. Deployed as a
+                                sidecar container, it subscribes to deployment
+                                logs and forwards them to an ingress/webhook URL
+                                for further processing outside of Railway.
+                            </p>
+
+                            <div class="flex gap-3 mt-4">
+                                <a
+                                    href="https://github.com/ferretcode/locomotive"
+                                    target="_blank"
+                                    class="btn btn-primary flex-1"
+                                >
+                                    View on GitHub
+                                </a>
+
+                                <button
+                                    class="btn btn-outline btn-secondary flex-1"
+                                    onclick="modal_locomotive.showModal()"
+                                >
+                                    Read Writeup
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-full bg-neutral text-neutral-content">
+                        <div class="card-body">
+                            <h2 class="card-title">Scavenger</h2>
+                            <h3>
+                                <div class="badge badge-primary">
+                                    Full-stack
+                                </div>
+                                <div class="badge badge-secondary">Go</div>
+                                <div class="badge badge-secondary">
+                                    Containers
+                                </div>
+                                <div class="badge badge-secondary">
+                                    Websockets
+                                </div>
+                                <div class="badge badge-secondary">
+                                    Web-scraping
+                                </div>
+                            </h3>
+                            <p>
+                                A self-hostable platform for building
+                                web-scraping pipelines. Allows developers to
+                                describe in plain english the content they're
+                                looking for, create a data schema, and then
+                                connect over websocket to their workflow to get
+                                real-time web-scraping data.
+                            </p>
+
+                            <div class="flex gap-3 mt-4">
+                                <a
+                                    href="https://github.com/ferretcode/scavenger"
+                                    target="_blank"
+                                    class="btn btn-primary flex-1"
+                                    >View on GitHub</a
+                                >
+                                <button
+                                    class="btn btn-outline btn-secondary flex-1"
+                                    onclick="modal_scavenger.showModal()"
+                                >
+                                    Read Writeup
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-full bg-neutral text-neutral-content">
+                        <div class="card-body">
+                            <h2 class="card-title">RFID Inventory Tracker</h2>
+                            <h3>
+                                <div class="badge badge-primary">Embedded</div>
+                                <div class="badge badge-secondary">RP2040</div>
+                                <div class="badge badge-secondary">C</div>
+                                <div class="badge badge-secondary">KiCad</div>
+                                <div class="badge badge-secondary">Go</div>
+                                <div class="badge badge-secondary">
+                                    PostgreSQL
+                                </div>
+                                <div class="badge badge-secondary">Redis</div>
+                            </h3>
+                            <p>
+                                An RP2040 based embedded device for
+                                automatically tracking warehouse inventory and
+                                ingress using RFID tags and MQTT. Also exposes a
+                                Golang based internal dashboard for registering
+                                products and viewing product inventory.
+                            </p>
+
+                            <div class="flex gap-3 mt-4">
+                                <a
+                                    href="https://github.com/ferretcode/rfid-inventory-tracker"
+                                    target="_blank"
+                                    class="btn btn-primary flex-1"
+                                    >View on GitHub</a
+                                >
+
+                                <a
+                                    class="btn btn-outline btn-secondary flex-1"
+                                    href="https://techrocks.frrt.space/posts/building-embedded-cloud-integrations-with-mqtt"
+                                >
+                                    Read Writeup
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-full bg-neutral text-neutral-content">
+                        <div class="card-body">
+                            <h2 class="card-title">FleetOS</h2>
+                            <h3>
+                                <div class="badge badge-primary">Embedded</div>
+                                <div class="badge badge-secondary">STM32</div>
+                                <div class="badge badge-secondary">C</div>
+                                <div class="badge badge-secondary">KiCad</div>
+                                <div class="badge badge-secondary">Go</div>
+                                <div class="badge badge-secondary">
+                                    TimescaleDB
+                                </div>
+                                <div class="badge badge-secondary">Redis</div>
+                            </h3>
+                            <p>
+                                An open-source telmatics device and platform for
+                                realtime fleet tracking. Uses secure embedded
+                                devices with GPS and cellular support to track
+                                vehicle location. Also exposes a dashboard to
+                                manage fleet devices and view locations/routes.
+                            </p>
+
+                            <div class="flex gap-3 mt-4">
+                                <a
+                                    href="https://github.com/fleetos"
+                                    target="_blank"
+                                    class="btn btn-primary flex-1"
+                                    >View on GitHub</a
+                                >
+
+                                <button
+                                    class="btn btn-outline btn-secondary flex-1"
+                                    onclick="modal_fleetos.showModal()"
+                                >
+                                    Read Writeup
+                                </button>
+                            </div>
                         </div>
                     </div>
 
@@ -455,14 +505,95 @@
                                 feature-flags, distributed worker scheduling,
                                 and error and incident observability reporting.
                             </p>
-                            <a
-                                href="https://github.com/ferretcode/switchyard"
-                                target="_blank"
-                                class="btn btn-primary mt-3"
-                                >View on GitHub</a
-                            >
+
+                            <div class="flex gap-3 mt-4">
+                                <a
+                                    href="https://github.com/ferretcode/switchyard"
+                                    target="_blank"
+                                    class="btn btn-primary flex-1"
+                                    >View on GitHub</a
+                                >
+
+                                <button
+                                    class="btn btn-outline btn-secondary flex-1"
+                                    onclick="modal_switchyard.showModal()"
+                                >
+                                    Read Writeup
+                                </button>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="gallery" class="flex mt-16 mb-10">
+            <div class="m-auto px-4 w-full max-w-5xl">
+                <h2 class="text-3xl font-bold text-center mb-8">
+                    Project Gallery
+                </h2>
+
+                <div
+                    class="carousel w-full rounded-box h-96 bg-base-300 shadow-xl"
+                >
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img
+                            src="./images/compute-deck.jpg"
+                            class="w-full object-cover"
+                        />
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+                        >
+                            <a href="#slide4" class="btn btn-circle glass">❮</a>
+                            <a href="#slide2" class="btn btn-circle glass">❯</a>
+                        </div>
+                    </div>
+
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img
+                            src="./images/linklet.jpg"
+                            class="w-full object-cover"
+                        />
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+                        >
+                            <a href="#slide1" class="btn btn-circle glass">❮</a>
+                            <a href="#slide3" class="btn btn-circle glass">❯</a>
+                        </div>
+                    </div>
+
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img
+                            src="./images/eps-root.png"
+                            class="w-full object-cover"
+                        />
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+                        >
+                            <a href="#slide2" class="btn btn-circle glass">❮</a>
+                            <a href="#slide4" class="btn btn-circle glass">❯</a>
+                        </div>
+                    </div>
+
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img
+                            src="./images/px1.png"
+                            class="w-full object-cover"
+                        />
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+                        >
+                            <a href="#slide3" class="btn btn-circle glass">❮</a>
+                            <a href="#slide1" class="btn btn-circle glass">❯</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center w-full py-2 gap-2">
+                    <a href="#slide1" class="btn btn-xs">1</a>
+                    <a href="#slide2" class="btn btn-xs">2</a>
+                    <a href="#slide3" class="btn btn-xs">3</a>
+                    <a href="#slide4" class="btn btn-xs">4</a>
                 </div>
             </div>
         </div>
@@ -489,5 +620,742 @@
                 </p>
             </div>
         </footer>
+
+        <dialog id="modal_locomotive" class="modal">
+            <div
+                class="modal-box w-11/12 max-w-5xl bg-neutral text-neutral-content"
+            >
+                <form method="dialog">
+                    <button
+                        class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    >
+                        ✕
+                    </button>
+                </form>
+
+                <h3 class="font-bold text-2xl mb-6">
+                    Locomotive - Technical Deep Dive
+                </h3>
+
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="lg:w-2/3">
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Architecture
+                        </h4>
+                        <p class="mb-4">
+                            Locomotive deploys as a sidecar container in an
+                            existing Railway project. It leverages the internal
+                            Railway GraphQL API to subscribe to deployment log
+                            streams. The user configures the application using a
+                            Railway template, and environment variables.
+                            Locomotive is pointed at an external ingest URL,
+                            where log lines are sent using a specified format
+                            and processed by the consumer.
+                        </p>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Key Challenges
+                        </h4>
+                        <ul class="list-disc list-inside mb-4 space-y-2">
+                            <li>
+                                Handling deployments updating and restarting
+                                gracefully without dropping log lines.
+                            </li>
+                            <li>
+                                Reconstructing Railway's fragmented log lines
+                                from the GraphQL API into full log lines useable
+                                by external consumers.
+                            </li>
+                            <li>
+                                Packaging unstructured text logs into objects
+                                useable by other platforms.
+                            </li>
+                        </ul>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Tech Stack Details
+                        </h4>
+                        <p class="mb-4">
+                            Written in Go. Heavy use of Goroutines & channels
+                            for handling multiple internal tasks at once,
+                            including incoming log lines and forwarding logs to
+                            external platforms. Locomotive is packaged as a
+                            Docker container and deployed using a Railway
+                            template. GraphQL is used to subscribe to incoming
+                            logs, events, and other important details about
+                            monitored deployments.
+                        </p>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Achievements
+                        </h4>
+                        <p>
+                            Received multiple sponsorships from Railway to
+                            expand the feature set and improve reliability.
+                            Shipped well over 1m+ logs with 100% uptime.
+                            Deployed in 30+ user applications.
+                        </p>
+                    </div>
+
+                    <div class="lg:w-1/3 flex flex-col gap-4">
+                        <div
+                            class="bg-base-300 p-2 rounded-lg shadow-lg text-black"
+                        >
+                            <img
+                                src="./images/slack.png"
+                                alt="Image of Slack With Locomotive Logs"
+                                class="rounded"
+                            />
+                            <p class="text-xs text-center mt-2 opacity-70">
+                                Logs Shipped to Slack
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-action">
+                    <form method="dialog">
+                        <button class="btn">Close</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
+
+        <dialog id="modal_scavenger" class="modal">
+            <div
+                class="modal-box w-11/12 max-w-5xl bg-neutral text-neutral-content"
+            >
+                <form method="dialog">
+                    <button
+                        class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    >
+                        ✕
+                    </button>
+                </form>
+
+                <h3 class="font-bold text-2xl mb-6">
+                    Scavenger - Technical Deep Dive
+                </h3>
+
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="lg:w-2/3">
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Architecture
+                        </h4>
+                        <p class="mb-4">
+                            Scavenger is a Dockerized self-hostable platform
+                            that allows developers to quickly create web
+                            scraping pipelines. Users create workflows by
+                            describing in english what content they want, and
+                            then defining a structured schema for the data to be
+                            packaged in. Each web scraping job uses an LLM to
+                            analyze the page content & extract the requested
+                            information. Each unit of data is streamed over
+                            websocket, where consuming applications can connect
+                            and retrieve data in real time. Built for
+                            BeaverHacks in 24 hours.
+                        </p>
+
+                        <p class="mb-4">
+                            The technical implementation involved a monolithic
+                            Golang application that used dependency injection to
+                            spin up workflow containers on the seleted cloud
+                            platform (or locally via Docker +
+                            self-orchestration). Each workflow container is
+                            written in a multithreaded Python application using
+                            Crawl4AI to scrape and package the page content. For
+                            each workflow, a new private websocket endpoint
+                            (only accessible via API key) is spun up that
+                            consumers connect to. Workflows are scheduled using
+                            user-specified cron strings to run at intervals.
+                        </p>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Key Challenges
+                        </h4>
+                        <ul class="list-disc list-inside mb-4 space-y-2">
+                            <li>
+                                Integrating the GCP cloud compute API & getting
+                                containers to reliably spin up and pass health
+                                checks.
+                            </li>
+                            <li>
+                                Implementing concurrency reliably in Python
+                                workflows.
+                            </li>
+                            <li>
+                                Implementing reliable Websocket connections &
+                                statistics tracking for workflows
+                            </li>
+                        </ul>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Tech Stack Details
+                        </h4>
+                        <p class="mb-4">
+                            Written in Go. Used Gorilla websockets for websocket
+                            connections, and listened concurrently for both
+                            workflow & consumer connections. Implemented a
+                            websocket reverse proxy between the workflow & the
+                            user for streaming. Used Docker for deployment, and
+                            MongoDB for workflow & document storage. Google
+                            Cloud Run API for GCP integration, and Docker CLI
+                            package for local orchestration. Used Pulumi for
+                            user-facing IaC to simplify deployment on GCP.
+                        </p>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Achievements
+                        </h4>
+                        <p>
+                            Built in under 24 hours for BeaverHacks with a high
+                            level of polish. Collaborated with a team of 3 other
+                            developers & wrote high-quality and maintainable
+                            code that allowed easy expansions after the event.
+                        </p>
+                    </div>
+
+                    <div class="lg:w-1/3 flex flex-col gap-4">
+                        <div
+                            class="bg-base-300 p-2 rounded-lg shadow-lg text-black"
+                        >
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/XYN0cpBTbPg?si=MAmqPyzD280GCd9W"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="
+                                    accelerometer;
+                                    autoplay;
+                                    clipboard-write;
+                                    encrypted-media;
+                                    gyroscope;
+                                    picture-in-picture;
+                                    web-share;
+                                "
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                            ></iframe>
+                            <p class="text-xs text-center mt-2 opacity-70">
+                                Project Showcase
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-action">
+                    <form method="dialog">
+                        <button class="btn">Close</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
+
+        <dialog id="modal_fleetos" class="modal">
+            <div
+                class="modal-box w-11/12 max-w-5xl bg-neutral text-neutral-content"
+            >
+                <form method="dialog">
+                    <button
+                        class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    >
+                        ✕
+                    </button>
+                </form>
+
+                <h3 class="font-bold text-2xl mb-6">
+                    FleetOS - Technical Deep Dive
+                </h3>
+
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="lg:w-2/3">
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Architecture
+                        </h4>
+                        <p class="mb-4">
+                            FleetOS is an open-source telmatics device used for
+                            fleet tracking. It integrates with a backend ingest
+                            platform over MQTT. The device uses a GNSS chip, a
+                            cellular modem, and an STM32 to track and transmit
+                            fleet locational data. The backend uses Golang and
+                            EMQX for ingress, and stores data in a TimescaleDB
+                            database for chronological data. The dashboard
+                            allows for fleet managers to view locations,
+                            introduce geofences, and manage devices remotely. An
+                            authentication strategy using pre-baked certificates
+                            is used to ensure no spoofing or interception occurs
+                            between the device and the server.
+                        </p>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Key Challenges
+                        </h4>
+                        <ul class="list-disc list-inside mb-4 space-y-2">
+                            <li>
+                                Integrating the GNSS chip. It requires
+                                filtering, impedance matching, and knowledge of
+                                various communication protocols and antenna
+                                considerations.
+                            </li>
+                            <li>
+                                Managing possible frequency collisions between
+                                GNSS and cellular.
+                            </li>
+                            <li>
+                                Keeping devices secure & designing an
+                                authentication strategy.
+                            </li>
+                        </ul>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Tech Stack Details
+                        </h4>
+                        <p class="mb-4">
+                            Device uses a simple STM32 F-series MCU, a Quectel
+                            NEO-M9N GNSS chip, and a Quectel BC65PB-04-STD
+                            cellular modem. Backend is written in Go, and MQTT
+                            is handled via an EMQX broker.
+                        </p>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Achievements
+                        </h4>
+                        <p>
+                            Learned about managing frequency & RF conflicts,
+                            implementing complex RF circuitry, and security in
+                            embedded devices. Worked with and led a team of 4
+                            others to plan and execute project requirements.
+                        </p>
+                    </div>
+
+                    <div class="lg:w-1/3 flex flex-col gap-4">
+                        <div
+                            class="bg-base-300 p-2 rounded-lg shadow-lg text-black"
+                        >
+                            <img
+                                src="./images/fleetos-system.png"
+                                alt="Image of Slack With Locomotive Logs"
+                                class="rounded"
+                            />
+                            <p class="text-xs text-center mt-2 opacity-70">
+                                System Architecture
+                            </p>
+                        </div>
+
+                        <div
+                            class="bg-base-300 p-2 rounded-lg shadow-lg text-black"
+                        >
+                            <img
+                                src="./images/fleetos-device.png"
+                                alt="Image of Slack With Locomotive Logs"
+                                class="rounded"
+                            />
+                            <p class="text-xs text-center mt-2 opacity-70">
+                                Device Architecture
+                            </p>
+                        </div>
+
+                        <div
+                            class="bg-base-300 p-2 rounded-lg shadow-lg text-black"
+                        >
+                            <img
+                                src="./images/fleetos-backend.png"
+                                alt="Image of Slack With Locomotive Logs"
+                                class="rounded"
+                            />
+                            <p class="text-xs text-center mt-2 opacity-70">
+                                Backend Architecture
+                            </p>
+                        </div>
+
+                        <div
+                            class="bg-base-300 p-2 rounded-lg shadow-lg text-black"
+                        >
+                            <img
+                                src="./images/fleetos-authentication.png"
+                                alt="Image of Slack With Locomotive Logs"
+                                class="rounded"
+                            />
+                            <p class="text-xs text-center mt-2 opacity-70">
+                                Authentication Strategy
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-action">
+                    <form method="dialog">
+                        <button class="btn">Close</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
+
+        <dialog id="modal_osusat" class="modal">
+            <div
+                class="modal-box w-11/12 max-w-5xl bg-neutral text-neutral-content"
+            >
+                <form method="dialog">
+                    <button
+                        class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    >
+                        ✕
+                    </button>
+                </form>
+
+                <h3 class="font-bold text-2xl mb-6">
+                    OSUSat - Technical Deep Dive
+                </h3>
+
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="lg:w-2/3">
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Architecture
+                        </h4>
+                        <p class="mb-4">
+                            OSUSat is a student CubeSat project I started and
+                            lead at Oregon State. Right now it's a prototype
+                            climate science satellite with the goal of launching
+                            it into low Earth orbit in the coming yeras. It's a
+                            modular system, allowing subsystems, boards, and
+                            firmware components to be swapped out quickly. It's
+                            based on four subsystems: the EPS (power
+                            distribution board), OBC (main system control
+                            board), payload (scientific instrument), and comms
+                            (downlink). Each of these subsystems requires its
+                            own complex PCB and firmware project.
+                        </p>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Key Challenges
+                        </h4>
+                        <ul class="list-disc list-inside mb-4 space-y-2">
+                            <li>
+                                Breaking down, designing, and implementing a
+                                complex system within a short timespan.
+                            </li>
+                            <li>
+                                Leading a team of 5-6 engineers to design a
+                                cohesive system in an organized fashion.
+                            </li>
+                            <li>
+                                Creating robust but simple standards and
+                                philosophies for design & implementation.
+                            </li>
+                            <li>
+                                Implementing flight-ready electronics in a
+                                student environment.
+                            </li>
+                        </ul>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Tech Stack Details
+                        </h4>
+                        <p class="mb-4">
+                            Each board (bar comms for the prototype) relies on
+                            an STM32 microcontroller. Two instances of the
+                            STM32H7 family and one instance of the STM32L4
+                            family.
+                        </p>
+
+                        <p class="mb-4">
+                            The EPS contains complex analog circuitry for
+                            hardware current monitoring & load shedding, as well
+                            as a complex C firmware project to manage power
+                            policy & system state. Individually controlled power
+                            rails are toggled via a load switch, both by
+                            monitoring circuitry and firmware.
+                        </p>
+
+                        <p class="mb-4">
+                            The OBC controls broad mission logic by performing
+                            health checks, monitoring subsystems, and using our
+                            <a href="https://github.com/OSUSat/messaging"
+                                >custom packet standard &amp; codec</a
+                            >
+                            to request and command other subsystems. This
+                            subsystem also manages all coordination with the
+                            ground, meaning it supports manual
+                            maintenance/probing, telemetry packaging, and more.
+                            It also uses QSPI and PSRAM to buffer data from
+                            other subsystems, and can move the system into "safe
+                            mode" in the case of an emergency.
+                        </p>
+
+                        <p class="mb-4">
+                            The payload board is the science instrument on the
+                            satellite, and its goal is to take multi-spectral
+                            images, and run processing algorithms on them to
+                            monitor climate health over time. It uses algorithms
+                            like NDVI, NDCI, and more to monitor vegetation
+                            health and oceanic algae blooms, which change over
+                            time with the climate. It's based on an STM32H7, and
+                            is responsible for collecting information,
+                            buffering, compressing, and coordinating with the
+                            OBC to transport it back to the ground.
+                        </p>
+
+                        <p class="mb-4">
+                            The comms system is the simplest board (for the
+                            prototype), just boasting an RFM69HCW LoRa
+                            transmitter. It exposes an SPI interface for the OBC
+                            to control for downlink purposes.
+                        </p>
+
+                        <p class="mb-4">
+                            Our general design philosophy is centered around
+                            safety and modularity. From the structural and
+                            hardware side to the firmware side, the entire
+                            system is easily able to swap in and out. Using a
+                            modular clamping desing, boards are easily replaced
+                            simply by unbolting and bolting them in. The
+                            firmware uses build-time dependency injection to
+                            conditionally link components based on system
+                            configuration and testing purposes. The firmware is
+                            also designed to be testable using the HITL
+                            philosophy, where some or all of the hardware
+                            components are simulated to test the firmware
+                            independently.
+                        </p>
+
+                        <p class="mb-4">
+                            I did an in-depth writeup on the firmware
+                            architecture that goes into far greater detail about
+                            the reasoning and structure that can be found
+                            <a
+                                href="https://techrocks.frrt.space/posts/creating-a-robust-firmware-architecture-for-our-cubesat"
+                                >here.</a
+                            >
+                            I would highly encourage you to read it if you're
+                            interested in the nitty-gritty.
+                        </p>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Achievements
+                        </h4>
+                        <p>
+                            Collaborated with a team to design and implement a
+                            complex system in a short time frame, while still
+                            maintaining high levels of quality, documentation,
+                            and robustness. Learned about how to design space
+                            hardware, and implemented industry-standard
+                            practices for safety in many areas of the system.
+                        </p>
+                    </div>
+
+                    <div class="lg:w-1/3 flex flex-col gap-4">
+                        <div
+                            class="bg-base-300 p-2 rounded-lg shadow-lg text-black"
+                        >
+                            <img
+                                src="./images/eps-root.png"
+                                alt="Image of Slack With Locomotive Logs"
+                                class="rounded"
+                            />
+                            <p class="text-xs text-center mt-2 opacity-70">
+                                EPS Root-Level Schematic
+                            </p>
+                        </div>
+
+                        <div
+                            class="bg-base-300 p-2 rounded-lg shadow-lg text-black"
+                        >
+                            <img
+                                src="./images/eps-stm32.png"
+                                alt="Image of Slack With Locomotive Logs"
+                                class="rounded"
+                            />
+                            <p class="text-xs text-center mt-2 opacity-70">
+                                EPS STM32L4 Schematic
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-action">
+                    <form method="dialog">
+                        <button class="btn">Close</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
+
+        <dialog id="modal_switchyard" class="modal">
+            <div
+                class="modal-box w-11/12 max-w-5xl bg-neutral text-neutral-content"
+            >
+                <form method="dialog">
+                    <button
+                        class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    >
+                        ✕
+                    </button>
+                </form>
+
+                <h3 class="font-bold text-2xl mb-6">
+                    Switchyard - Technical Deep Dive
+                </h3>
+
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="lg:w-2/3">
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Architecture
+                        </h4>
+                        <p class="mb-4">
+                            Switchyard is a feature-complete, pluggable toolkit
+                            for infrastructure management on Railway. It's
+                            deployed simply into an existing Railway project via
+                            a Railway template, and exposes multiple services
+                            that enable production-grade scaling, testing, and
+                            observability in Railway apps, without code changes.
+                            Switchyard was the 2025 Railway Hackathon 1st place
+                            winner!
+                        </p>
+
+                        <p class="mb-4">
+                            Switchyard has autoscaling, job scheduling,
+                            user-defined workers, feature flags, and incident
+                            reporting. All of this is managed through a simple
+                            web dashboard. Read about the features in more
+                            detail in the
+                            <a
+                                href="https://github.com/FerretCode/switchyard/blob/main/WHITEPAPER.md"
+                                >whitepaper.</a
+                            >
+                        </p>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Key Challenges
+                        </h4>
+                        <ul class="list-disc list-inside mb-4 space-y-2">
+                            <li>
+                                Making scaling decisions based on a wide history
+                                of input data for multiple deployments.
+                            </li>
+                            <li>
+                                Interacting with the Railway GraphQL API in many
+                                contexts.
+                            </li>
+                            <li>Managing configuration across deployments.</li>
+                        </ul>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Tech Stack Details
+                        </h4>
+                        <p class="mb-4">
+                            Switchyard is implemented in five different
+                            microservices (all implemented in Go) with various
+                            supporting services. The first service is the
+                            autoscaling service, which uses a sliding window
+                            algorithm to continuously look at deployment metrics
+                            to make decisions. Its algorithm is robust, and can
+                            detect spiking, emergency scenarios, general
+                            sustained load, and low use periods to make
+                            horizontal scaling decisions automatically.
+                        </p>
+
+                        <p class="mb-4">
+                            The next microservice is the job scheduling service,
+                            which uses RabbitMQ, Redis, and custom job workers
+                            to offload work from the main system. It allows
+                            users to write their own custom job handlers, and
+                            Switchyard provides documentation on how to adhere
+                            with its deduplication and reliability measures.
+                            Users deploy their workers as normal Railway
+                            services, and configure them in the dashboard to
+                            handle tasks. When the main system sends a request
+                            to offload some work, the scheduler looks at the
+                            request and queues a job receipt for the handler to
+                            work on. In combination with the autoscaling
+                            algorithm, it allows the worker pool to autoscale
+                            with demand.
+                        </p>
+
+                        <p class="mb-4">
+                            The feature flags microservice allows applications
+                            to conditionally expose certain features on their
+                            platform to users. The dashboard allows
+                            administrators to create feature flags like "show X
+                            page to internal testers, but show Y page to normal
+                            users." As applications hit these code paths where
+                            decisions are made, they simply psas the user
+                            context to Switchyard, which automatically
+                            determines which path to take.
+                        </p>
+
+                        <p class="mb-4">
+                            The incident reporting service monitors both
+                            deployment status, as well as uses an internal
+                            locomotive deployment to monitor for errors. Users
+                            subscribe to interested status changes (e.g. HEALTHY
+                            -> CRASHED), which automatically are streamed to the
+                            dashboard, as well as forwarded to incident channels
+                            like Slack or Discord. Additionally, Locomotive is
+                            bundled with Switchyard to allow users to monitor
+                            and ingest logs.
+                        </p>
+
+                        <p class="mb-4">
+                            The last microservice is the configurator, which
+                            allows internal applications to configure and
+                            redeploy Switchyard services at runtime to meet
+                            system needs. It also allows applications to request
+                            changes to environment variables for user apps on
+                            the fly.
+                        </p>
+
+                        <p class="mb-4">
+                            Switchyard services communicate over Railway's
+                            internal networking, which keeps everything
+                            airgapped from external services. The only exposed
+                            service is the dashboard, which is normally only
+                            exposed for short periods using a TCP proxy.
+                        </p>
+
+                        <h4 class="text-xl font-bold text-primary mb-2">
+                            Achievements
+                        </h4>
+                        <p>
+                            Switchyard won first place in the Railway hackathon.
+                        </p>
+                    </div>
+
+                    <div class="lg:w-1/3 flex flex-col gap-4">
+                        <div
+                            class="bg-base-300 p-2 rounded-lg shadow-lg text-black"
+                        >
+                            <img
+                                src="./images/switchyard.png"
+                                alt="Image of Switchyard Project"
+                                class="rounded"
+                            />
+                            <p class="text-xs text-center mt-2 opacity-70">
+                                Switchyard Railway Project
+                            </p>
+                        </div>
+
+                        <div
+                            class="bg-base-300 p-2 rounded-lg shadow-lg text-black"
+                        >
+                            <img
+                                src="./images/winner.png"
+                                alt="Image of Switchyard on the Railway Hackathon Winners Page"
+                                class="rounded"
+                            />
+                            <p class="text-xs text-center mt-2 opacity-70">
+                                Hackathon Winner
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-action">
+                    <form method="dialog">
+                        <button class="btn">Close</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
     </body>
 </html>
